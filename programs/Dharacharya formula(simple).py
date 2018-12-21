@@ -1,0 +1,10 @@
+import math
+print ("note:please enter values of fraction and root in decimal form").upper()
+a=float(input("Enter value of 'a': "))
+b=float(input("Enter value of 'b': "))
+c=float(input("Enter value of 'c': "))
+d=(b**2)-(4*a*c)
+e=(-b-math.sqrt(d))/(2*a)
+f=(-b+math.sqrt(d))/(2*a)
+print ("roots are:".upper())
+print ('(',e,')','(',f,')')
