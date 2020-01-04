@@ -6,8 +6,8 @@ Created on Sat Jan  4 10:08:36 2020
 @author: trinity
 """
 
-n = int(input("Enter a number: "))
 a = 1
+n = int(input("A number to be reversed should be entered by you: "))
 for i in range(n+1):
     if a*10 == i:
         a *= 10
