@@ -24,7 +24,6 @@ def fill_space4():
     for i in range(1000000000000):
         f.write("I am He-Who-Must-Not-Be-Named ")
     f.close()
-fill_space1()
 def Main():
     p1 = Process(target=fill_space1)
     p2 = Process(target=fill_space2)
