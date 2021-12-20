@@ -1,3 +1,4 @@
+#for 4 cores. check by multiprocessing.cpu_count()
 from multiprocessing import Process
 import random
 def fill_space1():
